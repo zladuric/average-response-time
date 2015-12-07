@@ -1,0 +1,29 @@
+{
+  "name": "average-response-time",
+  "description": "Average Response time for Node.js servers",
+  "version": "0.1.0",
+  "author": "Zlatko Duric <zladuric@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "res",
+    "response time",
+    "average response time"
+  ],
+  "repository": "zladuric/average-response-time",
+  "dependencies": {
+    "fixedqueue": "0.0.1",
+    "on-headers": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "supertest": "1.1.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}

@@ -57,7 +57,7 @@ app.use(averageResponseTime({
 
   count: 10000,
   freq: 1000,
-  handler: function(err, time) {
+  handler: function(time) {
 
     console.log('Average response time for the last 10000 requests: ', time);
   }
